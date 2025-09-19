@@ -29,7 +29,7 @@ function App() {
 
     try {
       // const response = await fetch("http://localhost:4000/api/audit", {
-      const response = await fetch("https://backend-ai-agents.onrender.com", {
+      const response = await fetch("https://backend-ai-agents.onrender.com/api/audit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ url }),
